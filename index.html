@@ -24,53 +24,155 @@
   </header>
 
   <main>
-    <section id="home" class="hero section">
-      <div class="hero-grid">
+    ```html
+<section id="home" class="hero section">
+
+    <div class="hero-grid">
+
         <div class="hero-copy">
-          <p class="eyebrow">S1 TEKNIK INFORMATIKA · IT & WEB DEVELOPMENT</p>
-          <h1>Muhammad<br><span>Hasib.</span></h1>
-          <p class="hero-text">
-            Lulusan S1 Teknik Informatika yang memiliki minat pada web development,
-            UI/UX, pemrograman, serta reparasi dan troubleshooting komputer & laptop.
-          </p>
-          <div class="hero-actions">
-            <a href="#projects" class="btn primary">Lihat Project <b>→</b></a>
-            <a href="#contact" class="btn ghost">Hubungi Saya</a>
-          </div>
+
+            <p class="eyebrow">
+                S1 TEKNIK INFORMATIKA · IT & WEB DEVELOPMENT
+            </p>
+
+            <h1>
+                Muhammad<br>
+                <span>Hasib.</span>
+            </h1>
+
+            <p class="hero-text">
+                Lulusan S1 Teknik Informatika yang memiliki minat pada web development,
+                UI/UX, pemrograman, serta reparasi dan troubleshooting komputer & laptop.
+            </p>
+
+            <div class="hero-actions">
+
+                <!-- PROJECT -->
+                <a href="#projects" class="btn primary">
+                    Lihat Project <b>→</b>
+                </a>
+
+                <!-- CV -->
+                <a
+                    href="https://drive.google.com/file/d/1B3Q27wW0FAL7LGqvMEbnB5PUVCO8WhgP/view?usp=sharing"
+                    class="btn ghost"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Lihat CV <b>↗</b>
+                </a>
+
+                <!-- CONTACT -->
+                <a href="#contact" class="btn ghost">
+                    Hubungi Saya
+                </a>
+
+            </div>
+
         </div>
+
+
+        <!-- PROFILE PHOTO -->
+
         <div class="profile-photo">
-    <div class="photo-frame">
-        <img src="images/9756.jpg" alt="Foto Muhammad Hasib">
-        <div class="photo-corner top-left"></div>
-        <div class="photo-corner top-right"></div>
-        <div class="photo-corner bottom-left"></div>
-        <div class="photo-corner bottom-right"></div>
+
+            <div class="photo-frame">
+
+                <img
+                    src="images/9756.jpg"
+                    alt="Foto Muhammad Hasib"
+                >
+
+                <div class="photo-corner top-left"></div>
+                <div class="photo-corner top-right"></div>
+                <div class="photo-corner bottom-left"></div>
+                <div class="photo-corner bottom-right"></div>
+
+            </div>
+
+            <div class="photo-status">
+                <span></span> PROFILE_IMAGE.JPG
+            </div>
+
+        </div>
+
+
+        <!-- TERMINAL -->
+
+        <div class="terminal-card">
+
+            <div class="terminal-top">
+
+                <span class="dot red"></span>
+                <span class="dot yellow"></span>
+                <span class="dot green"></span>
+
+                <span class="terminal-title">
+                    hasib_profile.exe
+                </span>
+
+            </div>
+
+
+            <div class="terminal-body">
+
+                <p>
+                    <span class="prompt">$</span>
+                    cat profile.txt
+                </p>
+
+                <p class="muted">
+                    ------------------------------
+                </p>
+
+                <p>
+                    <span class="key">Name</span>
+                    : Muhammad Hasib
+                </p>
+
+                <p>
+                    <span class="key">Degree</span>
+                    : S1 Teknik Informatika
+                </p>
+
+                <p>
+                    <span class="key">Focus</span>
+                    : Web Development
+                </p>
+
+                <p>
+                    <span class="key">Interest</span>
+                    : UI/UX & Technology
+                </p>
+
+                <p>
+                    <span class="key">Experience</span>
+                    : Laptop Repair
+                </p>
+
+                <p class="muted">
+                    ------------------------------
+                </p>
+
+                <p>
+                    <span class="prompt">$</span>
+                    <span class="blink">_</span>
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
-    <div class="photo-status">
-        <span></span> PROFILE_IMAGE.JPG
+
+    <div class="scroll-cue">
+        SCROLL TO EXPLORE <span>↓</span>
     </div>
-</div>
-        <div class="terminal-card">
-          <div class="terminal-top">
-            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-            <span class="terminal-title">hasib_profile.exe</span>
-          </div>
-          <div class="terminal-body">
-            <p><span class="prompt">$</span> cat profile.txt</p>
-            <p class="muted">------------------------------</p>
-            <p><span class="key">Name</span> : Muhammad Hasib</p>
-            <p><span class="key">Degree</span> : S1 Teknik Informatika</p>
-            <p><span class="key">Focus</span> : Web Development</p>
-            <p><span class="key">Interest</span> : UI/UX & Technology</p>
-            <p><span class="key">Experience</span> : Laptop Repair</p>
-            <p class="muted">------------------------------</p>
-            <p><span class="prompt">$</span> <span class="blink">_</span></p>
-          </div>
-        </div>
-      </div>
-      <div class="scroll-cue">SCROLL TO EXPLORE <span>↓</span></div>
-    </section>
+
+</section>
+```
+
 
     <section id="about" class="section">
       <div class="section-heading">
@@ -131,40 +233,8 @@
       </div>
     </section>
 
-    <section id="projects" class="section">
-      <div class="section-heading">
-        <span class="section-number">03</span>
-        <div><p class="section-kicker">PROJECTS.DIR</p><h2>Project</h2></div>
-      </div>
-      <p class="section-intro">
-        Area project yang relevan dengan kompetensi pada CV. Detail project dapat dikembangkan
-        dengan menambahkan screenshot, repository GitHub, dan demo ketika tersedia.
-      </p>
-      <div class="project-grid">
-        <article class="project-card featured">
-          <div class="project-top"><span class="project-id">01</span><span class="project-type">WEB</span></div>
-          <div class="project-icon">&lt;/&gt;</div>
-          <h3>Web Development</h3>
-          <p>Pengembangan website dengan fokus pada tampilan yang menarik, responsif, dan mudah digunakan.</p>
-          <div class="tags"><span>HTML</span><span>CSS</span><span>PHP</span><span>Flask</span></div>
-        </article>
-        <article class="project-card">
-          <div class="project-top"><span class="project-id">02</span><span class="project-type">UI/UX</span></div>
-          <div class="project-icon">◈</div>
-          <h3>UI/UX Design</h3>
-          <p>Perancangan tampilan dan pengalaman pengguna dengan menggabungkan visual dan fungsi aplikasi.</p>
-          <div class="tags"><span>UI Design</span><span>UX</span><span>Visual</span></div>
-        </article>
-        <article class="project-card">
-          <div class="project-top"><span class="project-id">03</span><span class="project-type">AI</span></div>
-          <div class="project-icon">⌬</div>
-          <h3>Computer Vision</h3>
-          <p>Area kompetensi yang tercantum pada CV dan dapat dikembangkan menjadi project demonstrasi.</p>
-          <div class="tags"><span>Python</span><span>Computer Vision</span></div>
-        </article>
-      </div>
-      <div class="project-note"><span>i</span> Project di atas disusun dari bidang/kompetensi yang tercantum pada CV, bukan klaim project spesifik yang tidak dicantumkan di CV.</div>
-    </section>
+    <section id="projects" class="section" id="projects"> <div class="section-heading"> <span class="section-number">03</span> <div> <p class="section-kicker">PROJECTS.DIR</p> <h2>Project</h2> </div> </div> <p class="section-intro"> Beberapa project dan hasil pengembangan yang saya kerjakan. Repository akan ditampilkan langsung dari GitHub. </p> <!-- PROJECT LOADING --> <div id="github-loading" class="github-loading"> <span class="loading-dot"></span> <span>Mengambil repository dari GitHub...</span> </div> <!-- PROJECT GRID --> <div id="github-projects" class="project-grid"> <!-- Project dari GitHub akan masuk di sini --> </div> <!-- GITHUB PROFILE --> <div class="github-profile"> <div class="github-profile-icon"></div> <div></div> <a href="https://github.com/Muhammadhasib1204?tab=repositories" target="_blank" rel="noopener noreferrer" > Lihat Semua Repository → </a> </div> </section> <script> const githubUsername = "Muhammadhasib1204"; const projectContainer = document.getElementById("github-projects"); const loading = document.getElementById("github-loading"); async function loadGithubProjects() { try { const response = await fetch( `https://api.github.com/users/${githubUsername}/repos?sort=updated&direction=desc&per_page=12` ); if (!response.ok) { throw new Error("Gagal mengambil repository GitHub"); } const repositories = await response.json(); loading.style.display = "none"; if (repositories.length === 0) { projectContainer.innerHTML = ` <p class="github-empty"> Belum ada repository yang tersedia. </p> `; return; } repositories.forEach((repo, index) => { const projectNumber = String(index + 1).padStart(2, "0"); const language = repo.language || "Programming"; const description = repo.description || "Repository project dan pengembangan aplikasi."; const card = document.createElement("article"); card.className = "project-card"; card.innerHTML = ` <div class="project-top"> <span class="project-id"> ${projectNumber} </span> <span class="project-type"> ${language.toUpperCase()} </span> </div> <div class="project-icon"> &lt;/&gt; </div> <h3> ${repo.name} </h3> <p> ${description} </p> <div class="tags"> <span>${language}</span> <span> ⭐ ${repo.stargazers_count} </span> <span> Fork ${repo.forks_count} </span> </div> <div class="project-buttons"> <a href="${repo.html_url}" target="_blank" rel="noopener noreferrer" class="github-btn" > VIEW REPOSITORY <span>↗</span> </a> ${ repo.has_pages ? ` <a href="https://${githubUsername}.github.io/${repo.name}/" target="_blank" rel="noopener noreferrer" class="preview-btn" > LIVE PREVIEW <span>↗</span> </a> ` : "" } </div> `; projectContainer.appendChild(card); }); } catch (error) { console.error(error); loading.style.display = "none"; projectContainer.innerHTML = ` <div class="github-error"> <strong> Gagal mengambil repository </strong> <p> Silakan buka repository GitHub secara langsung. </p> <a href="https://github.com/${githubUsername}?tab=repositories" target="_blank" rel="noopener noreferrer" class="github-btn" > OPEN GITHUB </a> </div> `; } } loadGithubProjects(); </script>
+
 
     <section id="skills" class="section alt">
       <div class="section-heading">
@@ -202,14 +272,36 @@
       </div>
     </section>
 
-    <section id="contact" class="contact section">
-      <div class="contact-inner">
+<section id="contact" class="contact section">
+
+    <div class="contact-inner">
+
         <p class="section-kicker">CONTACT.SH</p>
-        <h2>Let's build something<br><span>useful.</span></h2>
-        <p>Terbuka untuk kesempatan kerja, kolaborasi, dan pengembangan project di bidang teknologi.</p>
-        <a class="email-link" href="mailto:muhammadhasib02@gmail.com">muhammadhasib02@gmail.com <span>↗</span></a>
-      </div>
-    </section>
+
+        <h2>
+            Let's build something<br>
+            <span>useful.</span>
+        </h2>
+
+        <p>
+            Terbuka untuk kesempatan kerja, kolaborasi,
+            dan pengembangan project di bidang teknologi.
+        </p>
+
+        <a
+            class="email-link"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=muhammadhasib02@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            <span>muhammadhasib02@gmail.com</span>
+            <b>↗</b>
+        </a>
+
+    </div>
+
+</section>
+
   </main>
 
   <footer>
